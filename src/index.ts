@@ -1,4 +1,5 @@
-const fixedTableInit = () => {
+// @ts-ignore
+window.fixedTableInit = () => {
     const table = document.getElementById('fixed-table')
     if (!table) return
 

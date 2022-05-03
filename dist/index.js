@@ -16,7 +16,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\nvar fixedTable = function () {\n    var table = document.getElementById('fixed-table');\n    if (!table)\n        return;\n    table.innerHTML = \"\\n<table>\\n  <thead>\\n    <tr>\\n      <th>A</th>\\n      <th>B</th>\\n    </tr>\\n  </thead>\\n  <tbody>\\n    <tr>\\n      <td>A1</td>\\n      <td>B1</td>\\n    </tr>\\n    <tr>\\n      <td>A2</td>\\n      <td>B2</td>\\n    </tr>\\n  </tbody>\\n</table>\\n\";\n};\n\n\n//# sourceURL=webpack://fixed-table/./src/index.ts?");
+eval("\n// @ts-ignore\nwindow.fixedTableInit = function () {\n    var table = document.getElementById('fixed-table');\n    if (!table)\n        return;\n    table.innerHTML = \"\\n<table>\\n  <thead>\\n    <tr>\\n      <th>A</th>\\n      <th>B</th>\\n    </tr>\\n  </thead>\\n  <tbody>\\n    <tr>\\n      <td>A1</td>\\n      <td>B1</td>\\n    </tr>\\n    <tr>\\n      <td>A2</td>\\n      <td>B2</td>\\n    </tr>\\n  </tbody>\\n</table>\\n\";\n};\n\n\n//# sourceURL=webpack://fixed-table/./src/index.ts?");
 
 /***/ })
 
