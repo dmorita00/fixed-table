@@ -18,6 +18,10 @@ window.fixedTableInit = () => {
         <th>headheadhead</th>
         <th>headheadhead</th>
         <th>headheadhead</th>
+        <th>headheadhead</th>
+        <th>headheadhead</th>
+        <th>headheadhead</th>
+        <th>headheadhead</th>
       </tr>
     </thead>
     <tbody>
@@ -30,12 +34,6 @@ window.fixedTableInit = () => {
         <td>body</td>
         <td>body</td>
         <td>body</td>
-      </tr>
-      <tr>
-        <th>head</th>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
         <td>body</td>
         <td>body</td>
         <td>body</td>
@@ -47,12 +45,6 @@ window.fixedTableInit = () => {
         <td>body</td>
         <td>body</td>
         <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-      </tr>
-      <tr>
-        <th>head</th>
         <td>body</td>
         <td>body</td>
         <td>body</td>
@@ -70,9 +62,45 @@ window.fixedTableInit = () => {
         <td>body</td>
         <td>body</td>
         <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
       </tr>
       <tr>
         <th>head</th>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+      </tr>
+      <tr>
+        <th>head</th>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+      </tr>
+      <tr>
+        <th>head</th>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
+        <td>body</td>
         <td>body</td>
         <td>body</td>
         <td>body</td>
