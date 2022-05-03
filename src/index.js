@@ -2,8 +2,7 @@ const init = () => {
     const table = document.getElementById('fixed-table')
     if (!table) return
 
-    table.innerHTML(
-`
+    table.innerHTML = `
 <table>
   <thead>
     <tr>
@@ -23,7 +22,7 @@ const init = () => {
   </tbody>
 </table>
 `
-    )
+
 }
 
 init()
