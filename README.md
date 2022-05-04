@@ -7,8 +7,8 @@ The fixed column and rows table show in your page.
 https://dmorita00.github.io/fixedTable/
 
 ## Install
-- Github: Clone or Download
-- CDN:
+- [Github](https://github.com): Clone or Download
+- [CDN](https://github.com/jsdelivr/jsdelivr):
   - CSS: Insert below code in `<head>` tag.
 ```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table/dist/style.css">
