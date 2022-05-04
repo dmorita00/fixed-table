@@ -1,8 +1,8 @@
 import "./style.scss"
 
 // @ts-ignore
-window.fixedTableInit = () => {
-    const table = document.getElementById('fixed-table')
+window.fixedTableInit = (selector: string, header: string[], rows: string[][]) => {
+    const table = document.getElementById(selector)
     if (!table) return
 
     table.innerHTML = `
@@ -11,104 +11,20 @@ window.fixedTableInit = () => {
     <thead>
       <tr>
         <th></th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
-        <th>headheadhead</th>
+        ${header && header?.map(str => {
+            return `<th>${str}</th>`
+        }).join('')}
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th>head</th>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-      </tr>
-      <tr>
-        <th>head</th>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-      </tr>
-      <tr>
-        <th>head</th>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-      </tr>
-      <tr>
-        <th>head</th>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-      </tr>
-      <tr>
-        <th>head</th>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-      </tr>
-      <tr>
-        <th>head</th>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-        <td>body</td>
-      </tr>
+      ${rows && rows?.map((row, i) => {
+        return `<tr>
+            <th>${i + 1}</th>
+            ${row.map(str => {
+                return `<td>${str}</td>`
+            }).join('')}
+        </tr>`  
+      }).join('')}
     </tbody>
   </table>
 </div>
