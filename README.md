@@ -1,5 +1,5 @@
 # fixed-table
-The fixed column and rows table show in your page.
+Display a table with fixed columns and rows on your web site.
 
 ![](demo/fixed_table.gif)
 
@@ -9,20 +9,20 @@ https://dmorita00.github.io/fixedTable/
 ## Install
 - [Github](https://github.com): Clone or Download
 - [CDN](https://github.com/jsdelivr/jsdelivr):
-  - CSS: Insert below code in `<head>` tag.
+  - CSS: Insert below code in the `<head>` tag.
 ```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table/dist/style.css">
 ```
-  - JS: Insert below code in the most under of `<body>` tag.
+  - JS: Insert below code in the bottom of the `<body>` tag.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table/dist/index.js"></script>
 ```
 
-## Usage
-Set below args and call method for fixedTableInit.
-- A id name of div tag
-- Header values
-- Row values
+## How to use
+For fixedTableInit, set the below arguments and call the method.
+- div tag id name
+- Header value
+- Row value
 
 ```html
 <div id="fixed-table" style="width: 500px; height: 200px;"></div>

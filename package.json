@@ -1,7 +1,7 @@
 {
   "name": "fixed-table",
   "version": "1.0.0",
-  "description": "The fixed column and rows table show in your page.",
+  "description": "Display a table with fixed columns and rows on your web site.",
   "main": "dist/index.js",
   "repository": "https://github.com/dmorita00/fixed-table",
   "author": "dmorita00",
