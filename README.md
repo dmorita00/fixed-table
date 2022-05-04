@@ -10,11 +10,11 @@ https://dmorita00.github.io/fixedTable/
 - Github: Clone or Download
 - CDN:
   - CSS: Insert below code in `<head>` tag.
-  - ```shell
+```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table/dist/style.css">
 ```
   - JS: Insert below code in the most under of `<body>` tag.
-  - ```shell
+```html
 <script src="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table/dist/index.js"></script>
 ```
 
@@ -24,7 +24,7 @@ Set below args and call method for fixedTableInit.
 - Header values
 - Row values
 
-```shell
+```html
 <div id="fixed-table" style="width: 500px; height: 200px;"></div>
 <script src="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table@0.0.8/dist/index.js"></script>
 <script>
