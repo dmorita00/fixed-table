@@ -57,10 +57,10 @@ Set below args and call method for fixedTableInit.
 That’s all.
 
 ## License
-MIT
+[MIT](https://opensource.org/licenses/mit-license.php)
 
 ## Author
-dmorita00
+[dmorita00](https://github.com/dmorita00)
 
 ## Keywords
 fixed-cell fixed-column fixed-table typescript
