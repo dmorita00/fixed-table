@@ -4,18 +4,18 @@ Display a table with fixed columns and rows on your web site.
 ![](demo/fixed_table.gif)
 
 ## DEMO
-https://dmorita00.github.io/fixedTable/
+https://dmorita00.github.io/fixedTable
 
 ## Install
-- [Github](https://github.com): Clone or Download
+- [Github](https://dmorita00.github.io/fixedTable): Clone or Download
 - [CDN](https://github.com/jsdelivr/jsdelivr):
   - CSS: Insert below code in the `<head>` tag.
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table/dist/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table@0.0.10/dist/style.css">
 ```
   - JS: Insert below code in the bottom of the `<body>` tag.
 ```html
-<script src="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dmorita00/fixed-table@0.0.10/dist/index.js"></script>
 ```
 
 ## How to use
